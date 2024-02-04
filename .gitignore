@@ -1,0 +1,8 @@
+﻿/media/
+/static/
+*.sqlite3
+*.log
+*.pyc
+/.idea/
+/env/
+/virt_name/
