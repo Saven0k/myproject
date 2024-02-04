@@ -34,9 +34,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     '127.0.0.1',
-    '192.168.1.71',
-    '192.168.1.77',
-    'SavenokSav.pythonanyweather.com',
+    'SavenokSav.pythonanywhere.com',
 ]
 
 INTERNAL_IPS = [
