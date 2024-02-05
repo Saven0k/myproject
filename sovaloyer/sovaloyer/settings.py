@@ -30,7 +30,9 @@ SECRET_KEY = 'django-insecure-196ieh+tap&v396*4^1w1u(!oufv3zq365%cs052e!xa8&r=m&
 # SECRET_KEY = os.getenv('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
+SESSION_COOKIE_SECURE = True
+CSRF_COOKIE_SECURE = True
 
 ALLOWED_HOSTS = [
     '127.0.0.1',
@@ -134,7 +136,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
 STATIC_URL = 'static/'
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'additional_static')]
+# STATICFILES_DIRS = [os.path.join(BASE_DIR, 'additional_static')]
 
 # STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_ROOT = BASE_DIR / 'static/'
@@ -181,7 +183,3 @@ LOGGING = {
         },
     },
 }
-
-
-SESSION_COOKIE_SECURE = True
-CSRF_COOKIE_SECURE = True
