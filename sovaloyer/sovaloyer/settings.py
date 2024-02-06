@@ -36,7 +36,7 @@ CSRF_COOKIE_SECURE = True
 
 ALLOWED_HOSTS = [
     '127.0.0.1',
-    'SavenokSav.pythonanywhere.com',
+    'savenoksav.pythonanywhere.com',
 ]
 
 INTERNAL_IPS = [
